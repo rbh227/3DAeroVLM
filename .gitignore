@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+
+# Raw point cloud data (too large for git)
+data/3DAeroRelief/

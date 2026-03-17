@@ -1,0 +1,1958 @@
+[
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "scene_recognition",
+    "question": "What types of structures and land cover are present in this 3D scene?",
+    "answer": "The scene contains: building damage (23.5%), building no damage (25.3%), tree (13.7%). Background makes up 37.4% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "scene_recognition",
+    "question": "Identify the main object categories visible in this point cloud.",
+    "answer": "The scene contains: building damage (23.5%), building no damage (25.3%), tree (13.7%). Background makes up 37.4% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "scene_recognition",
+    "question": "What can you observe in this 3D disaster scene?",
+    "answer": "The scene contains: building damage (23.5%), building no damage (25.3%), tree (13.7%). Background makes up 37.4% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "scene_recognition",
+    "question": "What is the most prevalent non-background class in this 3D scene?",
+    "options": [
+      "A. Tree",
+      "B. Building-Damage",
+      "C. Road",
+      "D. Building-No-Damage"
+    ],
+    "answer": "D",
+    "ground_truth_value": "Building-No-Damage",
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "counting",
+    "question": "How many damaged buildings are in this 3D scene?",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6",
+      "E. 7"
+    ],
+    "answer": "C",
+    "ground_truth_value": 5,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "counting",
+    "question": "Count the number of destroyed or damaged structures visible in this point cloud.",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6",
+      "E. 7"
+    ],
+    "answer": "C",
+    "ground_truth_value": 5,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "counting",
+    "question": "What is the total count of buildings showing damage?",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6",
+      "E. 7"
+    ],
+    "answer": "C",
+    "ground_truth_value": 5,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "counting",
+    "question": "How many intact buildings remain in this scene?",
+    "options": [
+      "A. 6",
+      "B. 5",
+      "C. 11",
+      "D. 8",
+      "E. 10"
+    ],
+    "answer": "D",
+    "ground_truth_value": 8,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "counting",
+    "question": "Count the undamaged buildings in this 3D point cloud.",
+    "options": [
+      "A. 6",
+      "B. 5",
+      "C. 11",
+      "D. 8",
+      "E. 10"
+    ],
+    "answer": "D",
+    "ground_truth_value": 8,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "counting",
+    "question": "How many total buildings (damaged and intact) are in this 3D scene?",
+    "options": [
+      "A. 18",
+      "B. 16",
+      "C. 8",
+      "D. 13",
+      "E. 10"
+    ],
+    "answer": "D",
+    "ground_truth_value": 13,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "counting",
+    "question": "What percentage of buildings in this scene are damaged?",
+    "options": [
+      "A. 28%",
+      "B. 33%",
+      "C. 38%",
+      "D. 18%",
+      "E. 23%"
+    ],
+    "answer": "C",
+    "ground_truth_value": 38,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the damaged buildings in this 3D scene.",
+    "answer": "The building damage points are identified. They comprise 23.5% of the scene (129,196 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to damaged structures.",
+    "answer": "The building damage points are identified. They comprise 23.5% of the scene (129,196 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "referring_segmentation",
+    "question": "Highlight the destroyed buildings in this point cloud.",
+    "answer": "The building damage points are identified. They comprise 23.5% of the scene (129,196 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the intact buildings in this 3D scene.",
+    "answer": "The building no damage points are identified. They comprise 25.3% of the scene (138,995 points).",
+    "ground_truth_label": 2,
+    "ground_truth_class": "Building-No-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to undamaged structures.",
+    "answer": "The building no damage points are identified. They comprise 25.3% of the scene (138,995 points).",
+    "ground_truth_label": 2,
+    "ground_truth_class": "Building-No-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the trees and vegetation in this 3D scene.",
+    "answer": "The tree points are identified. They comprise 13.7% of the scene (75,443 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to trees.",
+    "answer": "The tree points are identified. They comprise 13.7% of the scene (75,443 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "spatial_reasoning",
+    "question": "What is the distance between the nearest damaged and intact building?",
+    "answer": "The nearest damaged building is approximately 0.8 meters from the closest intact building.",
+    "ground_truth_value": 0.8,
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "spatial_reasoning",
+    "question": "How spread out are the damaged buildings from each other?",
+    "answer": "The damaged buildings are spaced an average of 10.3 meters apart.",
+    "ground_truth_value": 10.3,
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "damage_report",
+    "question": "Generate a comprehensive damage assessment report for this 3D scene.",
+    "answer": "This scene contains 13 buildings: 5 damaged and 8 intact (38% damage rate). The nearest damaged building is 0.8m from the closest intact structure. Damaged buildings are spaced 10.3m apart on average. Vegetation covers 13.7% of the scene. Total scene: 549,174 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp1.ply",
+    "task_type": "damage_report",
+    "question": "Provide a detailed analysis of the structural damage in this point cloud.",
+    "answer": "This scene contains 13 buildings: 5 damaged and 8 intact (38% damage rate). The nearest damaged building is 0.8m from the closest intact structure. Damaged buildings are spaced 10.3m apart on average. Vegetation covers 13.7% of the scene. Total scene: 549,174 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "scene_recognition",
+    "question": "What types of structures and land cover are present in this 3D scene?",
+    "answer": "The scene contains: building damage (11.6%), building no damage (56.7%), road (2.5%), tree (1.9%). Background makes up 27.4% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "scene_recognition",
+    "question": "Identify the main object categories visible in this point cloud.",
+    "answer": "The scene contains: building damage (11.6%), building no damage (56.7%), road (2.5%), tree (1.9%). Background makes up 27.4% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "scene_recognition",
+    "question": "What can you observe in this 3D disaster scene?",
+    "answer": "The scene contains: building damage (11.6%), building no damage (56.7%), road (2.5%), tree (1.9%). Background makes up 27.4% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "scene_recognition",
+    "question": "What is the most prevalent non-background class in this 3D scene?",
+    "options": [
+      "A. Road",
+      "B. Building-No-Damage",
+      "C. Tree",
+      "D. Building-Damage"
+    ],
+    "answer": "B",
+    "ground_truth_value": "Building-No-Damage",
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "counting",
+    "question": "How many damaged buildings are in this 3D scene?",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 5",
+      "D. 0",
+      "E. 1"
+    ],
+    "answer": "E",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "counting",
+    "question": "Count the number of destroyed or damaged structures visible in this point cloud.",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 5",
+      "D. 0",
+      "E. 1"
+    ],
+    "answer": "E",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "counting",
+    "question": "What is the total count of buildings showing damage?",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 5",
+      "D. 0",
+      "E. 1"
+    ],
+    "answer": "E",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "counting",
+    "question": "How many intact buildings remain in this scene?",
+    "options": [
+      "A. 7",
+      "B. 10",
+      "C. 6",
+      "D. 8",
+      "E. 4"
+    ],
+    "answer": "A",
+    "ground_truth_value": 7,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "counting",
+    "question": "Count the undamaged buildings in this 3D point cloud.",
+    "options": [
+      "A. 7",
+      "B. 10",
+      "C. 6",
+      "D. 8",
+      "E. 4"
+    ],
+    "answer": "A",
+    "ground_truth_value": 7,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "counting",
+    "question": "How many total buildings (damaged and intact) are in this 3D scene?",
+    "options": [
+      "A. 8",
+      "B. 6",
+      "C. 11",
+      "D. 5",
+      "E. 10"
+    ],
+    "answer": "A",
+    "ground_truth_value": 8,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "counting",
+    "question": "What percentage of buildings in this scene are damaged?",
+    "options": [
+      "A. 12%",
+      "B. 17%",
+      "C. 0%",
+      "D. 2%",
+      "E. 7%"
+    ],
+    "answer": "A",
+    "ground_truth_value": 12,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the damaged buildings in this 3D scene.",
+    "answer": "The building damage points are identified. They comprise 11.6% of the scene (79,703 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to damaged structures.",
+    "answer": "The building damage points are identified. They comprise 11.6% of the scene (79,703 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "referring_segmentation",
+    "question": "Highlight the destroyed buildings in this point cloud.",
+    "answer": "The building damage points are identified. They comprise 11.6% of the scene (79,703 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the intact buildings in this 3D scene.",
+    "answer": "The building no damage points are identified. They comprise 56.7% of the scene (389,408 points).",
+    "ground_truth_label": 2,
+    "ground_truth_class": "Building-No-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to undamaged structures.",
+    "answer": "The building no damage points are identified. They comprise 56.7% of the scene (389,408 points).",
+    "ground_truth_label": 2,
+    "ground_truth_class": "Building-No-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the road surfaces in this 3D scene.",
+    "answer": "The road points are identified. They comprise 2.5% of the scene (16,963 points).",
+    "ground_truth_label": 3,
+    "ground_truth_class": "Road",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points that belong to roads.",
+    "answer": "The road points are identified. They comprise 2.5% of the scene (16,963 points).",
+    "ground_truth_label": 3,
+    "ground_truth_class": "Road",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the trees and vegetation in this 3D scene.",
+    "answer": "The tree points are identified. They comprise 1.9% of the scene (12,821 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to trees.",
+    "answer": "The tree points are identified. They comprise 1.9% of the scene (12,821 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "spatial_reasoning",
+    "question": "What is the distance between the nearest damaged and intact building?",
+    "answer": "The nearest damaged building is approximately 1.7 meters from the closest intact building.",
+    "ground_truth_value": 1.7,
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "spatial_reasoning",
+    "question": "How far is the nearest building from the road?",
+    "answer": "The nearest building is approximately 10.2 meters from the road.",
+    "ground_truth_value": 10.2,
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "damage_report",
+    "question": "Generate a comprehensive damage assessment report for this 3D scene.",
+    "answer": "This scene contains 8 buildings: 1 damaged and 7 intact (12% damage rate). The nearest damaged building is 1.7m from the closest intact structure. Road infrastructure is present (2.5% of scene). The nearest building is 10.2m from the road. Vegetation covers 1.9% of the scene. Total scene: 687,165 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp2.ply",
+    "task_type": "damage_report",
+    "question": "Provide a detailed analysis of the structural damage in this point cloud.",
+    "answer": "This scene contains 8 buildings: 1 damaged and 7 intact (12% damage rate). The nearest damaged building is 1.7m from the closest intact structure. Road infrastructure is present (2.5% of scene). The nearest building is 10.2m from the road. Vegetation covers 1.9% of the scene. Total scene: 687,165 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "scene_recognition",
+    "question": "What types of structures and land cover are present in this 3D scene?",
+    "answer": "The scene contains: building damage (12.2%), building no damage (48.9%), tree (7.6%). Background makes up 31.4% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "scene_recognition",
+    "question": "Identify the main object categories visible in this point cloud.",
+    "answer": "The scene contains: building damage (12.2%), building no damage (48.9%), tree (7.6%). Background makes up 31.4% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "scene_recognition",
+    "question": "What can you observe in this 3D disaster scene?",
+    "answer": "The scene contains: building damage (12.2%), building no damage (48.9%), tree (7.6%). Background makes up 31.4% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "scene_recognition",
+    "question": "What is the most prevalent non-background class in this 3D scene?",
+    "options": [
+      "A. Building-No-Damage",
+      "B. Road",
+      "C. Tree",
+      "D. Building-Damage"
+    ],
+    "answer": "A",
+    "ground_truth_value": "Building-No-Damage",
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "counting",
+    "question": "How many damaged buildings are in this 3D scene?",
+    "options": [
+      "A. 0",
+      "B. 3",
+      "C. 5",
+      "D. 2",
+      "E. 1"
+    ],
+    "answer": "E",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "counting",
+    "question": "Count the number of destroyed or damaged structures visible in this point cloud.",
+    "options": [
+      "A. 0",
+      "B. 3",
+      "C. 5",
+      "D. 2",
+      "E. 1"
+    ],
+    "answer": "E",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "counting",
+    "question": "What is the total count of buildings showing damage?",
+    "options": [
+      "A. 0",
+      "B. 3",
+      "C. 5",
+      "D. 2",
+      "E. 1"
+    ],
+    "answer": "E",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "counting",
+    "question": "How many intact buildings remain in this scene?",
+    "options": [
+      "A. 7",
+      "B. 13",
+      "C. 9",
+      "D. 11",
+      "E. 5"
+    ],
+    "answer": "C",
+    "ground_truth_value": 9,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "counting",
+    "question": "Count the undamaged buildings in this 3D point cloud.",
+    "options": [
+      "A. 7",
+      "B. 13",
+      "C. 9",
+      "D. 11",
+      "E. 5"
+    ],
+    "answer": "C",
+    "ground_truth_value": 9,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "counting",
+    "question": "How many total buildings (damaged and intact) are in this 3D scene?",
+    "options": [
+      "A. 8",
+      "B. 14",
+      "C. 6",
+      "D. 12",
+      "E. 10"
+    ],
+    "answer": "E",
+    "ground_truth_value": 10,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "counting",
+    "question": "What percentage of buildings in this scene are damaged?",
+    "options": [
+      "A. 0%",
+      "B. 15%",
+      "C. 20%",
+      "D. 10%",
+      "E. 5%"
+    ],
+    "answer": "D",
+    "ground_truth_value": 10,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the damaged buildings in this 3D scene.",
+    "answer": "The building damage points are identified. They comprise 12.2% of the scene (70,360 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to damaged structures.",
+    "answer": "The building damage points are identified. They comprise 12.2% of the scene (70,360 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "referring_segmentation",
+    "question": "Highlight the destroyed buildings in this point cloud.",
+    "answer": "The building damage points are identified. They comprise 12.2% of the scene (70,360 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the intact buildings in this 3D scene.",
+    "answer": "The building no damage points are identified. They comprise 48.9% of the scene (282,549 points).",
+    "ground_truth_label": 2,
+    "ground_truth_class": "Building-No-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to undamaged structures.",
+    "answer": "The building no damage points are identified. They comprise 48.9% of the scene (282,549 points).",
+    "ground_truth_label": 2,
+    "ground_truth_class": "Building-No-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the trees and vegetation in this 3D scene.",
+    "answer": "The tree points are identified. They comprise 7.6% of the scene (43,908 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to trees.",
+    "answer": "The tree points are identified. They comprise 7.6% of the scene (43,908 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "spatial_reasoning",
+    "question": "What is the distance between the nearest damaged and intact building?",
+    "answer": "The nearest damaged building is approximately 2.4 meters from the closest intact building.",
+    "ground_truth_value": 2.4,
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "damage_report",
+    "question": "Generate a comprehensive damage assessment report for this 3D scene.",
+    "answer": "This scene contains 10 buildings: 1 damaged and 9 intact (10% damage rate). The nearest damaged building is 2.4m from the closest intact structure. Vegetation covers 7.6% of the scene. Total scene: 578,050 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp3.ply",
+    "task_type": "damage_report",
+    "question": "Provide a detailed analysis of the structural damage in this point cloud.",
+    "answer": "This scene contains 10 buildings: 1 damaged and 9 intact (10% damage rate). The nearest damaged building is 2.4m from the closest intact structure. Vegetation covers 7.6% of the scene. Total scene: 578,050 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "scene_recognition",
+    "question": "What types of structures and land cover are present in this 3D scene?",
+    "answer": "The scene contains: building damage (45.4%), building no damage (2.7%), tree (4.5%). Background makes up 47.3% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "scene_recognition",
+    "question": "Identify the main object categories visible in this point cloud.",
+    "answer": "The scene contains: building damage (45.4%), building no damage (2.7%), tree (4.5%). Background makes up 47.3% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "scene_recognition",
+    "question": "What can you observe in this 3D disaster scene?",
+    "answer": "The scene contains: building damage (45.4%), building no damage (2.7%), tree (4.5%). Background makes up 47.3% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "scene_recognition",
+    "question": "What is the most prevalent non-background class in this 3D scene?",
+    "options": [
+      "A. Building-Damage",
+      "B. Building-No-Damage",
+      "C. Tree",
+      "D. Road"
+    ],
+    "answer": "A",
+    "ground_truth_value": "Building-Damage",
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "counting",
+    "question": "How many damaged buildings are in this 3D scene?",
+    "options": [
+      "A. 1",
+      "B. 3",
+      "C. 2",
+      "D. 5",
+      "E. 0"
+    ],
+    "answer": "A",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "counting",
+    "question": "Count the number of destroyed or damaged structures visible in this point cloud.",
+    "options": [
+      "A. 1",
+      "B. 3",
+      "C. 2",
+      "D. 5",
+      "E. 0"
+    ],
+    "answer": "A",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "counting",
+    "question": "What is the total count of buildings showing damage?",
+    "options": [
+      "A. 1",
+      "B. 3",
+      "C. 2",
+      "D. 5",
+      "E. 0"
+    ],
+    "answer": "A",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "counting",
+    "question": "How many intact buildings remain in this scene?",
+    "options": [
+      "A. 2",
+      "B. 1",
+      "C. 5",
+      "D. 3",
+      "E. 0"
+    ],
+    "answer": "B",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "counting",
+    "question": "Count the undamaged buildings in this 3D point cloud.",
+    "options": [
+      "A. 2",
+      "B. 1",
+      "C. 5",
+      "D. 3",
+      "E. 0"
+    ],
+    "answer": "B",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "counting",
+    "question": "How many total buildings (damaged and intact) are in this 3D scene?",
+    "options": [
+      "A. 3",
+      "B. 0",
+      "C. 1",
+      "D. 4",
+      "E. 2"
+    ],
+    "answer": "E",
+    "ground_truth_value": 2,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "counting",
+    "question": "What percentage of buildings in this scene are damaged?",
+    "options": [
+      "A. 50%",
+      "B. 45%",
+      "C. 30%",
+      "D. 40%",
+      "E. 35%"
+    ],
+    "answer": "A",
+    "ground_truth_value": 50,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the damaged buildings in this 3D scene.",
+    "answer": "The building damage points are identified. They comprise 45.4% of the scene (5,718,901 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to damaged structures.",
+    "answer": "The building damage points are identified. They comprise 45.4% of the scene (5,718,901 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "referring_segmentation",
+    "question": "Highlight the destroyed buildings in this point cloud.",
+    "answer": "The building damage points are identified. They comprise 45.4% of the scene (5,718,901 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the intact buildings in this 3D scene.",
+    "answer": "The building no damage points are identified. They comprise 2.7% of the scene (343,385 points).",
+    "ground_truth_label": 2,
+    "ground_truth_class": "Building-No-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to undamaged structures.",
+    "answer": "The building no damage points are identified. They comprise 2.7% of the scene (343,385 points).",
+    "ground_truth_label": 2,
+    "ground_truth_class": "Building-No-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the trees and vegetation in this 3D scene.",
+    "answer": "The tree points are identified. They comprise 4.5% of the scene (567,737 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to trees.",
+    "answer": "The tree points are identified. They comprise 4.5% of the scene (567,737 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "spatial_reasoning",
+    "question": "What is the distance between the nearest damaged and intact building?",
+    "answer": "The nearest damaged building is approximately 14.9 meters from the closest intact building.",
+    "ground_truth_value": 14.9,
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "damage_report",
+    "question": "Generate a comprehensive damage assessment report for this 3D scene.",
+    "answer": "This scene contains 2 buildings: 1 damaged and 1 intact (50% damage rate). The nearest damaged building is 14.9m from the closest intact structure. Vegetation covers 4.5% of the scene. Total scene: 12,584,549 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp4.ply",
+    "task_type": "damage_report",
+    "question": "Provide a detailed analysis of the structural damage in this point cloud.",
+    "answer": "This scene contains 2 buildings: 1 damaged and 1 intact (50% damage rate). The nearest damaged building is 14.9m from the closest intact structure. Vegetation covers 4.5% of the scene. Total scene: 12,584,549 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "scene_recognition",
+    "question": "What types of structures and land cover are present in this 3D scene?",
+    "answer": "The scene contains: building damage (25.2%), road (2.9%), tree (11.5%). Background makes up 60.3% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "scene_recognition",
+    "question": "Identify the main object categories visible in this point cloud.",
+    "answer": "The scene contains: building damage (25.2%), road (2.9%), tree (11.5%). Background makes up 60.3% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "scene_recognition",
+    "question": "What can you observe in this 3D disaster scene?",
+    "answer": "The scene contains: building damage (25.2%), road (2.9%), tree (11.5%). Background makes up 60.3% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "scene_recognition",
+    "question": "What is the most prevalent non-background class in this 3D scene?",
+    "options": [
+      "A. Building-No-Damage",
+      "B. Tree",
+      "C. Road",
+      "D. Building-Damage"
+    ],
+    "answer": "D",
+    "ground_truth_value": "Building-Damage",
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "counting",
+    "question": "How many damaged buildings are in this 3D scene?",
+    "options": [
+      "A. 5",
+      "B. 0",
+      "C. 2",
+      "D. 3",
+      "E. 1"
+    ],
+    "answer": "E",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "counting",
+    "question": "Count the number of destroyed or damaged structures visible in this point cloud.",
+    "options": [
+      "A. 5",
+      "B. 0",
+      "C. 2",
+      "D. 3",
+      "E. 1"
+    ],
+    "answer": "E",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "counting",
+    "question": "What is the total count of buildings showing damage?",
+    "options": [
+      "A. 5",
+      "B. 0",
+      "C. 2",
+      "D. 3",
+      "E. 1"
+    ],
+    "answer": "E",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "counting",
+    "question": "How many total buildings (damaged and intact) are in this 3D scene?",
+    "options": [
+      "A. 3",
+      "B. 2",
+      "C. 5",
+      "D. 0",
+      "E. 1"
+    ],
+    "answer": "E",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "counting",
+    "question": "What percentage of buildings in this scene are damaged?",
+    "options": [
+      "A. 85%",
+      "B. 80%",
+      "C. 100%",
+      "D. 90%",
+      "E. 95%"
+    ],
+    "answer": "C",
+    "ground_truth_value": 100,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the damaged buildings in this 3D scene.",
+    "answer": "The building damage points are identified. They comprise 25.2% of the scene (897,413 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to damaged structures.",
+    "answer": "The building damage points are identified. They comprise 25.2% of the scene (897,413 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "referring_segmentation",
+    "question": "Highlight the destroyed buildings in this point cloud.",
+    "answer": "The building damage points are identified. They comprise 25.2% of the scene (897,413 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the road surfaces in this 3D scene.",
+    "answer": "The road points are identified. They comprise 2.9% of the scene (104,516 points).",
+    "ground_truth_label": 3,
+    "ground_truth_class": "Road",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points that belong to roads.",
+    "answer": "The road points are identified. They comprise 2.9% of the scene (104,516 points).",
+    "ground_truth_label": 3,
+    "ground_truth_class": "Road",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the trees and vegetation in this 3D scene.",
+    "answer": "The tree points are identified. They comprise 11.5% of the scene (409,613 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to trees.",
+    "answer": "The tree points are identified. They comprise 11.5% of the scene (409,613 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "spatial_reasoning",
+    "question": "How far is the nearest building from the road?",
+    "answer": "The nearest building is approximately 14.8 meters from the road.",
+    "ground_truth_value": 14.8,
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "damage_report",
+    "question": "Generate a comprehensive damage assessment report for this 3D scene.",
+    "answer": "This scene contains 1 buildings: 1 damaged and 0 intact (100% damage rate). Road infrastructure is present (2.9% of scene). The nearest building is 14.8m from the road. Vegetation covers 11.5% of the scene. Total scene: 3,556,371 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp5.ply",
+    "task_type": "damage_report",
+    "question": "Provide a detailed analysis of the structural damage in this point cloud.",
+    "answer": "This scene contains 1 buildings: 1 damaged and 0 intact (100% damage rate). Road infrastructure is present (2.9% of scene). The nearest building is 14.8m from the road. Vegetation covers 11.5% of the scene. Total scene: 3,556,371 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "scene_recognition",
+    "question": "What types of structures and land cover are present in this 3D scene?",
+    "answer": "The scene contains: building damage (50.2%), tree (12.2%). Background makes up 37.6% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "scene_recognition",
+    "question": "Identify the main object categories visible in this point cloud.",
+    "answer": "The scene contains: building damage (50.2%), tree (12.2%). Background makes up 37.6% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "scene_recognition",
+    "question": "What can you observe in this 3D disaster scene?",
+    "answer": "The scene contains: building damage (50.2%), tree (12.2%). Background makes up 37.6% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "scene_recognition",
+    "question": "What is the most prevalent non-background class in this 3D scene?",
+    "options": [
+      "A. Building-Damage",
+      "B. Road",
+      "C. Tree",
+      "D. Building-No-Damage"
+    ],
+    "answer": "A",
+    "ground_truth_value": "Building-Damage",
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "counting",
+    "question": "How many damaged buildings are in this 3D scene?",
+    "options": [
+      "A. 1",
+      "B. 3",
+      "C. 4",
+      "D. 2",
+      "E. 0"
+    ],
+    "answer": "D",
+    "ground_truth_value": 2,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "counting",
+    "question": "Count the number of destroyed or damaged structures visible in this point cloud.",
+    "options": [
+      "A. 1",
+      "B. 3",
+      "C. 4",
+      "D. 2",
+      "E. 0"
+    ],
+    "answer": "D",
+    "ground_truth_value": 2,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "counting",
+    "question": "What is the total count of buildings showing damage?",
+    "options": [
+      "A. 1",
+      "B. 3",
+      "C. 4",
+      "D. 2",
+      "E. 0"
+    ],
+    "answer": "D",
+    "ground_truth_value": 2,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "counting",
+    "question": "How many total buildings (damaged and intact) are in this 3D scene?",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 3",
+      "D. 4",
+      "E. 2"
+    ],
+    "answer": "E",
+    "ground_truth_value": 2,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "counting",
+    "question": "What percentage of buildings in this scene are damaged?",
+    "options": [
+      "A. 100%",
+      "B. 85%",
+      "C. 95%",
+      "D. 90%",
+      "E. 80%"
+    ],
+    "answer": "A",
+    "ground_truth_value": 100,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the damaged buildings in this 3D scene.",
+    "answer": "The building damage points are identified. They comprise 50.2% of the scene (2,518,576 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to damaged structures.",
+    "answer": "The building damage points are identified. They comprise 50.2% of the scene (2,518,576 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "referring_segmentation",
+    "question": "Highlight the destroyed buildings in this point cloud.",
+    "answer": "The building damage points are identified. They comprise 50.2% of the scene (2,518,576 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the trees and vegetation in this 3D scene.",
+    "answer": "The tree points are identified. They comprise 12.2% of the scene (613,841 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to trees.",
+    "answer": "The tree points are identified. They comprise 12.2% of the scene (613,841 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "spatial_reasoning",
+    "question": "How spread out are the damaged buildings from each other?",
+    "answer": "The damaged buildings are spaced an average of 7.2 meters apart.",
+    "ground_truth_value": 7.2,
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "damage_report",
+    "question": "Generate a comprehensive damage assessment report for this 3D scene.",
+    "answer": "This scene contains 2 buildings: 2 damaged and 0 intact (100% damage rate). Damaged buildings are spaced 7.2m apart on average. Vegetation covers 12.2% of the scene. Total scene: 5,019,852 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp6.ply",
+    "task_type": "damage_report",
+    "question": "Provide a detailed analysis of the structural damage in this point cloud.",
+    "answer": "This scene contains 2 buildings: 2 damaged and 0 intact (100% damage rate). Damaged buildings are spaced 7.2m apart on average. Vegetation covers 12.2% of the scene. Total scene: 5,019,852 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "scene_recognition",
+    "question": "What types of structures and land cover are present in this 3D scene?",
+    "answer": "The scene contains: building damage (52.3%), tree (4.6%). Background makes up 43.2% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "scene_recognition",
+    "question": "Identify the main object categories visible in this point cloud.",
+    "answer": "The scene contains: building damage (52.3%), tree (4.6%). Background makes up 43.2% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "scene_recognition",
+    "question": "What can you observe in this 3D disaster scene?",
+    "answer": "The scene contains: building damage (52.3%), tree (4.6%). Background makes up 43.2% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "scene_recognition",
+    "question": "What is the most prevalent non-background class in this 3D scene?",
+    "options": [
+      "A. Road",
+      "B. Building-Damage",
+      "C. Tree",
+      "D. Building-No-Damage"
+    ],
+    "answer": "B",
+    "ground_truth_value": "Building-Damage",
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "counting",
+    "question": "How many damaged buildings are in this 3D scene?",
+    "options": [
+      "A. 2",
+      "B. 5",
+      "C. 1",
+      "D. 3",
+      "E. 0"
+    ],
+    "answer": "C",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "counting",
+    "question": "Count the number of destroyed or damaged structures visible in this point cloud.",
+    "options": [
+      "A. 2",
+      "B. 5",
+      "C. 1",
+      "D. 3",
+      "E. 0"
+    ],
+    "answer": "C",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "counting",
+    "question": "What is the total count of buildings showing damage?",
+    "options": [
+      "A. 2",
+      "B. 5",
+      "C. 1",
+      "D. 3",
+      "E. 0"
+    ],
+    "answer": "C",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "counting",
+    "question": "How many total buildings (damaged and intact) are in this 3D scene?",
+    "options": [
+      "A. 1",
+      "B. 5",
+      "C. 0",
+      "D. 3",
+      "E. 2"
+    ],
+    "answer": "A",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "counting",
+    "question": "What percentage of buildings in this scene are damaged?",
+    "options": [
+      "A. 80%",
+      "B. 85%",
+      "C. 100%",
+      "D. 90%",
+      "E. 95%"
+    ],
+    "answer": "C",
+    "ground_truth_value": 100,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the damaged buildings in this 3D scene.",
+    "answer": "The building damage points are identified. They comprise 52.3% of the scene (2,301,300 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to damaged structures.",
+    "answer": "The building damage points are identified. They comprise 52.3% of the scene (2,301,300 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "referring_segmentation",
+    "question": "Highlight the destroyed buildings in this point cloud.",
+    "answer": "The building damage points are identified. They comprise 52.3% of the scene (2,301,300 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the trees and vegetation in this 3D scene.",
+    "answer": "The tree points are identified. They comprise 4.6% of the scene (201,120 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to trees.",
+    "answer": "The tree points are identified. They comprise 4.6% of the scene (201,120 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "damage_report",
+    "question": "Generate a comprehensive damage assessment report for this 3D scene.",
+    "answer": "This scene contains 1 buildings: 1 damaged and 0 intact (100% damage rate). Vegetation covers 4.6% of the scene. Total scene: 4,402,543 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp7.ply",
+    "task_type": "damage_report",
+    "question": "Provide a detailed analysis of the structural damage in this point cloud.",
+    "answer": "This scene contains 1 buildings: 1 damaged and 0 intact (100% damage rate). Vegetation covers 4.6% of the scene. Total scene: 4,402,543 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "scene_recognition",
+    "question": "What types of structures and land cover are present in this 3D scene?",
+    "answer": "The scene contains: building damage (68.7%). Background makes up 30.6% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "scene_recognition",
+    "question": "Identify the main object categories visible in this point cloud.",
+    "answer": "The scene contains: building damage (68.7%). Background makes up 30.6% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "scene_recognition",
+    "question": "What can you observe in this 3D disaster scene?",
+    "answer": "The scene contains: building damage (68.7%). Background makes up 30.6% of the scene.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "scene_recognition",
+    "question": "What is the most prevalent non-background class in this 3D scene?",
+    "options": [
+      "A. Building-No-Damage",
+      "B. Tree",
+      "C. Building-Damage",
+      "D. Road"
+    ],
+    "answer": "C",
+    "ground_truth_value": "Building-Damage",
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "counting",
+    "question": "How many damaged buildings are in this 3D scene?",
+    "options": [
+      "A. 3",
+      "B. 0",
+      "C. 2",
+      "D. 1",
+      "E. 5"
+    ],
+    "answer": "D",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "counting",
+    "question": "Count the number of destroyed or damaged structures visible in this point cloud.",
+    "options": [
+      "A. 3",
+      "B. 0",
+      "C. 2",
+      "D. 1",
+      "E. 5"
+    ],
+    "answer": "D",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "counting",
+    "question": "What is the total count of buildings showing damage?",
+    "options": [
+      "A. 3",
+      "B. 0",
+      "C. 2",
+      "D. 1",
+      "E. 5"
+    ],
+    "answer": "D",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "counting",
+    "question": "How many total buildings (damaged and intact) are in this 3D scene?",
+    "options": [
+      "A. 3",
+      "B. 0",
+      "C. 2",
+      "D. 5",
+      "E. 1"
+    ],
+    "answer": "E",
+    "ground_truth_value": 1,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "counting",
+    "question": "What percentage of buildings in this scene are damaged?",
+    "options": [
+      "A. 90%",
+      "B. 85%",
+      "C. 100%",
+      "D. 80%",
+      "E. 95%"
+    ],
+    "answer": "C",
+    "ground_truth_value": 100,
+    "format": "multiple_choice",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the damaged buildings in this 3D scene.",
+    "answer": "The building damage points are identified. They comprise 68.7% of the scene (2,440,176 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to damaged structures.",
+    "answer": "The building damage points are identified. They comprise 68.7% of the scene (2,440,176 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "referring_segmentation",
+    "question": "Highlight the destroyed buildings in this point cloud.",
+    "answer": "The building damage points are identified. They comprise 68.7% of the scene (2,440,176 points).",
+    "ground_truth_label": 1,
+    "ground_truth_class": "Building-Damage",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "referring_segmentation",
+    "question": "Segment the trees and vegetation in this 3D scene.",
+    "answer": "The tree points are identified. They comprise 0.7% of the scene (24,703 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "referring_segmentation",
+    "question": "Identify all points belonging to trees.",
+    "answer": "The tree points are identified. They comprise 0.7% of the scene (24,703 points).",
+    "ground_truth_label": 4,
+    "ground_truth_class": "Tree",
+    "format": "segmentation",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "damage_report",
+    "question": "Generate a comprehensive damage assessment report for this 3D scene.",
+    "answer": "This scene contains 1 buildings: 1 damaged and 0 intact (100% damage rate). Vegetation covers 0.7% of the scene. Total scene: 3,554,129 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  },
+  {
+    "scene_id": "Area_2/pp8.ply",
+    "task_type": "damage_report",
+    "question": "Provide a detailed analysis of the structural damage in this point cloud.",
+    "answer": "This scene contains 1 buildings: 1 damaged and 0 intact (100% damage rate). Vegetation covers 0.7% of the scene. Total scene: 3,554,129 3D points.",
+    "format": "open_ended",
+    "split": "test",
+    "modality": "3D_point_cloud"
+  }
+]
